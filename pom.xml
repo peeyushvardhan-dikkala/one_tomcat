@@ -36,6 +36,17 @@
 		    <url>http://44.202.251.20:8081/repository/flm-releases/</url>
 		</repository>
   	</distributionManagement>
+
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version> <!-- or latest stable -->
+        </plugin>
+    </plugins>
+</build>
+
 	
 	<pluginRepositories>
 	    <pluginRepository>    
